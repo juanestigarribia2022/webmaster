@@ -1,0 +1,32 @@
+.caja {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background: #00a2ff;
+    padding: 100px;
+    box-shadow: 14px 17px 0px 0px rgba(87, 66, 108, 0.75);
+    -webkit-box-shadow: 14px 17px 0px 0px rgba(86, 4, 250, 0.75);
+    -moz-box-shadow: 14px 17px 0px 0px rgba(41, 151, 181, 0.952);
+    text-shadow: 1px -1px 19px rgba(8, 7, 7, 0.67);
+    -webkit-border-radius: 10px 0px 10px 0px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+.caja1{
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(208, 237, 40);
+    box-shadow: 10px 10px 5px 0px rgba(47,140,51,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(47,140,51,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(47,140,51,0.75);
+}

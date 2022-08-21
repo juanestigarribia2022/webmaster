@@ -1,0 +1,21 @@
+/*
+font-family: 'DynaPuff', cursive;
+font-family: 'Silkscreen', cursive;
+*/
+.texto{
+    background-color: greenyellow;
+    column-count: 2;
+    column-gap: 25px;
+    font-family: cursive;
+}
+.texto .sinmargenelprimero{
+    margin-top: 0px
+}
+h2{
+    color: darkgray;
+    font-family: 'Silkscreen', cursive;
+}
+p{
+    font-family: 'DynaPuff', cursive;
+    font-weight: 300;
+}

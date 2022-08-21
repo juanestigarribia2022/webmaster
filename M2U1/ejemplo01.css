@@ -1,0 +1,18 @@
+.caja {
+    margin: 1.5cm;
+    width: 300px;
+    height: 300px;
+    background-color: #0093E9;
+    background: #00a2ff;
+    padding: 30px;
+    box-shadow: 14px 17px 0px 0px rgba(154, 126, 209, 0.75);
+    -webkit-box-shadow: 14px 17px 0px 0px rgba(154, 126, 209, 0.75);
+    -moz-box-shadow: 14px 17px 0px 0px rgba(154, 126, 209, 0.75);
+    text-shadow: 1px -1px 19px rgba(0, 0, 0, 0.67);
+    border-radius: 39px 39px 39px 39px;
+    -webkit-border-radius: 39px 39px 39px 39px;
+    -moz-border-radius: 39px 39px 39px 39px;
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+}
