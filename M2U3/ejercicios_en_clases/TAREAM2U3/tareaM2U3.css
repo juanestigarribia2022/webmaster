@@ -1,0 +1,40 @@
+body {
+	color: #000;
+	background: #1fcd33;
+	font-size: 100%;
+}
+
+.contenedor {
+	width: 800px;
+	background: #ea7018;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav {
+	background: #69c6d6;
+	float: left;
+	width: 160px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li a {
+	color: #0e0e0e;
+	text-decoration: none;
+}
+
+.contenido {
+	background: #606a6c;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
