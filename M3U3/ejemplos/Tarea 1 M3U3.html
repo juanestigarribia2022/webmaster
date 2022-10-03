@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>¿Cuantos metros debemos recorrer?</title>
+</head>
+
+<body>
+    <script>
+        var num1;
+
+        num1 = prompt('¿Cuantos metros debemos recorrer?:', '');
+        num1 = parseInt(num1);
+
+        if (num1 <= 1000) {
+            document.write('Iremos caminando');
+        }
+
+        if (num1 >= 1001 && num1 <= 10000) {
+            document.write('Iremos en bicicleta');
+        }
+        if (num1 >= 10001 && num1 <= 30000) {
+            document.write('Iremos en colectivo');
+        }
+        if (num1 >= 30001 && num1 <= 100000) {
+            document.write('Iremos en automovil');
+        }
+        if (num1 >= 100001) {
+            document.write('Iremos en avion');
+        }
+    </script>
+
+</body>
+
+</html>

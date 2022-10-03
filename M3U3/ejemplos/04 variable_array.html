@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<script>
+		var frutas = ["Manzana", "Banana", "Pera", "Sandia"];
+
+		console.log(frutas.length);
+		console.log(frutas);
+
+		var primero = frutas[0]; //manzana
+
+		var ultimo = frutas[frutas.length - 1]; // siempre es el ultimo
+		console.log(ultimo)
+		console.log(primero)
+
+		var vegetales = ['Repollo', 'Nabo', 'Rábano', 'Zanahoria'];
+
+		console.log(vegetales);  // ["Repollo", "Nabo", "Rábano", "Zanahoria"]
+
+		var seleccionado = 2;
+		console.log(vegetales[seleccionado]);
+
+		seleccionado = 1;
+		console.log(vegetales[seleccionado]);
+
+		for (var i = 0; i < vegetales.length; i++) {
+			console.log('tenemos ' + vegetales[i])
+		}
+
+
+	</script>
+
+</body>
+
+</html>

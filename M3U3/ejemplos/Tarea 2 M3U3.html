@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Array de Numeros, el Mayor</title>
+</head>
+
+<body>
+    <script>
+        var numeros = ['num1', 'num2', 'num3',]
+
+        num1 = prompt('Ingresa un primer numero:', '');
+        num1 = parseInt(num1)
+        num2 = prompt('Ahora ingresa otro numero:', '');
+        num2 = parseInt(num2)
+        num3 = prompt('Por ultimo ingresa otro mas:', '');
+        num3 = parseInt(num3)
+
+        /*var seleccionado = 2;
+        console.log(numeros[2]);*/
+        if (num1 > num2 && num1 > num3) {
+            document.write('El mayor numero ingresado es el ' + num1);
+        } else {
+            if (num2 > num1 && num2 > num3) {
+                document.write('El mayor numero ingresado es el ' + num2);
+            } else {
+                if (num3 > num2 && num3 > num1)
+                    document.write('El mayor numero ingresado es el ' + num3);
+            }
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
