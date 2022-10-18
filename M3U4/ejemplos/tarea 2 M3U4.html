@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarea2M3U4.css">
+    <title>Tarea 2 M3U4</title>
+</head>
+
+<body>
+    <textarea name="Tarea 2 M3U4" id="texto" cols="30" rows="10"></textarea>
+    <div>Conteo : <span id="conteo"></span></div>
+    <script>
+        var texto = document.getElementById('texto');
+        var conteo = document.getElementById('conteo');
+        texto.addEventListener('keyup', function () {
+            conteo.innerText = texto.value.length;
+        })
+    </script>
+</body>
+
+</html>
