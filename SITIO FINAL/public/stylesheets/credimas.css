@@ -172,39 +172,46 @@ h4 {
 
 /*Fin Redes Sociales*/
 /*Inicio Contacto*/
-.formulario p{
+.formulario p {
     display: flex;
 }
-.formulario textarea{
+
+.formulario textarea {
     width: 225px;
     height: 200px;
     background-color: bisque;
     box-shadow: 0 0 5px;
 }
+
 .formulario p label {
     min-width: 180px;
 }
+
 .contacto {
     display: flex;
-    gap: 24%;   
+    gap: 24%;
 }
+
 .contacto div {
     width: 100%;
 }
+
 .datos p {
     font-size: 14px;
 }
+
 .datos ul li {
     font-size: 15px;
 
 }
-.formulario input{
+
+.formulario input {
     background-color: bisque;
     box-shadow: 0 0 5px;
     font-size: 16px;
     padding: 6px 20px;
     width: auto;
-    position:static;
+    position: static;
     cursor: pointer;
 
 }
