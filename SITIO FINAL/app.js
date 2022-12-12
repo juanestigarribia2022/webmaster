@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 require('dotenv').config();
 var session = require('express-session');
+var pool = require('./models/bd');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -13,8 +14,8 @@ var nosotrosRouter = require('./routes/nosotros');
 var lineasdefinanciamientoRouter = require('./routes/lineasdefinanciamiento');
 var redessocialesRouter = require('./routes/redessociales');
 var contactoRouter = require('./routes/contacto');
-var LoginRouter = require('./routes/admin/login');
-var adminRouter = require('./routes/admin/novedades');
+var loginRouter = require('./routes/admin/login');
+var adminNovedadesRouter = require('./routes/admin/novedades');
 
 var app = express();
 
@@ -39,10 +40,8 @@ app.use('/nosotros', nosotrosRouter);
 app.use('/lineasdefinanciamiento', lineasdefinanciamientoRouter);
 app.use('/redessociales', redessocialesRouter);
 app.use('/contacto', contactoRouter);
-app.use('/admin/login', LoginRouter);
-app.use('/admin/novedades', adminRouter);
-
-
+app.use('/admin/login', loginRouter); 
+app.use('/admin/novedades', adminNovedadesRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
