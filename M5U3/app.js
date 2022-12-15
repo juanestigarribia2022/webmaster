@@ -26,10 +26,10 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 //consulta//
-/*pool.query('select nombre, salario from empleados').then(function
+pool.query('select nombre, salario from empleados').then(function
   (resultados) {
     console.log(resultados)
-  });*/
+  });
 
 //insert//
 /*var obj = {
